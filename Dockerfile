@@ -73,7 +73,8 @@ RUN zypper addrepo http://download.opensuse.org/repositories/home:illuusio/openS
     texlive-chktex \
     unzip && \
   rpm -e -f --nodeps -v \
-     R-recommended-packages \ 
+     R-recommended-packages \
+     julia \
      && \
   # Clear zypper cache
   zypper clean -a
