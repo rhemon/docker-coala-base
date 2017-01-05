@@ -74,7 +74,7 @@ RUN zypper addrepo http://download.opensuse.org/repositories/home:illuusio/openS
     unzip && \
   rpm -e -f --nodeps -v \
      R-recommended-packages \
-     julia \
+     R-Matrix \
      && \
   # Clear zypper cache
   zypper clean -a
