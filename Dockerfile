@@ -88,6 +88,7 @@ RUN zypper addrepo http://download.opensuse.org/repositories/home:illuusio/openS
      python3-six \
      rsyslog \
      gsl \
+     xorg-x11-fonts \
      && \
   # Clear zypper cache
   zypper clean -a
