@@ -72,6 +72,26 @@ RUN zypper addrepo http://download.opensuse.org/repositories/home:illuusio/openS
     tar \
     texlive-chktex \
     unzip && \
+  rpm -e -f --nodeps -v \
+     libasan3 \
+     texlive-kpathsea \
+     texlive-gsftopk \
+     python-cssselect \
+     python-pyxb \
+     python-curses \
+     python-lxml \
+     python-six \
+     python-xml \
+     python-setuptools \
+     python-javapackages \
+     python-Pygments \
+     python3-six \
+     rsyslog \
+     gsl \
+     xorg-x11-fonts \
+     xorg-x11-fonts-core \
+     unzip \
+     && \
   # Clear zypper cache
   zypper clean -a
 
