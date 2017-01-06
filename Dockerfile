@@ -75,7 +75,7 @@ RUN zypper addrepo http://download.opensuse.org/repositories/home:illuusio/openS
   rpm -e -f --nodeps -v \
      libasan3 \
      texlive-kpathsea \
-     perl-Devel-StackTrace \
+     texlive-gsftopk \
      && \
   # Clear zypper cache
   zypper clean -a
