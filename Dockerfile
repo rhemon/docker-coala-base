@@ -80,6 +80,7 @@ RUN zypper addrepo http://download.opensuse.org/repositories/home:illuusio/openS
      python-pyxb \
      python-curses \
      python-lxml \
+     python-six \
      && \
   # Clear zypper cache
   zypper clean -a
