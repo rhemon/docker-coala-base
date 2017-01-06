@@ -79,6 +79,7 @@ RUN zypper addrepo http://download.opensuse.org/repositories/home:illuusio/openS
      python-cssselect \
      python-pyxb \
      python-curses \
+     python-lxml \
      && \
   # Clear zypper cache
   zypper clean -a
