@@ -86,6 +86,7 @@ RUN zypper addrepo http://download.opensuse.org/repositories/home:illuusio/openS
      python-javapackages \
      python-Pygments \
      python3-six \
+     rsyslog \
      && \
   # Clear zypper cache
   zypper clean -a
