@@ -76,6 +76,7 @@ RUN zypper addrepo http://download.opensuse.org/repositories/home:illuusio/openS
      libasan3 \
      texlive-kpathsea \
      texlive-gsftopk \
+     python-cssselect \
      && \
   # Clear zypper cache
   zypper clean -a
