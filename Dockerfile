@@ -89,6 +89,7 @@ RUN zypper addrepo http://download.opensuse.org/repositories/home:illuusio/openS
      rsyslog \
      gsl \
      xorg-x11-fonts \
+     xorg-x11-fonts-core \
      && \
   # Clear zypper cache
   zypper clean -a
